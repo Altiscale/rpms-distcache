@@ -1,0 +1,10 @@
+--- /tmp/proto_fd.c      2016-09-14 08:04:34.790911008 +0000
++++ ./libnal/proto_fd.c  2016-09-14 08:05:25.984057695 +0000
+@@ -26,6 +26,7 @@
+ #include "nal_internal.h"
+ #include "ctrl_fd.h"
+ #include <libsys/post.h>
++#include <limits.h>
+
+ /**************************/
+ /* predeclare our vtables */
